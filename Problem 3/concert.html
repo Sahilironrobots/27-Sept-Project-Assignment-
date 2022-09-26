@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="problem3.css">
+    <script src="problem3.js"></script>
+    
+</head>
+<body>
+    
+
+    <div class="container-fluid" style="background-color:skyblue" id="header">
+        <div class="row">
+            <div class="col-sm-12" id="topbar"> <span class="dot"> </span> <span class="dot" style="background-color: green"> </span> <span class="dot" style="background-color: yellow" > </span>
+            </div>
+            <div class="col-sm-12"  id="searchbar"><form> <input type="text" id="search"  placeholder="search"><i class="fa fa-search"> </i>
+                                                    <input type="reset" style="border:none;cursor:pointer"  ></form>
+                                                </div>
+            <div class="col-sm-12"  >
+                <div id="menubar">
+                        <a id="home"> HOME </a>
+                        <a id="event" > EVENTS </a>
+                        <a href="#newzz" > NEWS </a>
+                        <a id="register" > REGISTER </a>
+                        <a href="#photo"> PHOTOS </a>
+                        <a href="#blog" > BLOG </a>
+                        <a href="#highlights" > HIGHLIGHTS</a></div>
+            </div>  </div>
+        </div>
+            <div class="container-fluid" style="background-color:cornflowerblue">
+            <div class="row">
+            <div class="col-sm-8">
+               
+                <div id="panel" style="overflow:hidden;">
+                   
+                    <button class="btn" id="btn1" >EXPERTISE </button>
+                    <button class="btn" id="btn2" >ENGAGE </button>
+                    <button class="btn" id="btn3">EXPERIENCE </button>
+                    <button class="btn" id="btn4">RESOURCES </button>
+                    <button class="btn" id="btn5">ABOUT </button>
+                    <button class="btn" id="btn6">CONTACT </button>
+                                      <!-- Expertise-->
+                    <div id="Expertise" class="cards" style="margin-left: 50px"> <p> This Events Expertises in the Area of our Universe, Entertainment, New and Innovative Ideas in the Field of Science, Discoveries Made. The Highlight is the Panelists from various field can be seen sharing their views.
+                    </p> <i class="fa fa-close" class="closecard" id="close"></i></div> 
+                                       <!-- Engage-->
+                    <div id="Engage" class="cards" style="margin-left: 200px"> <p> The New Updation Project For 5G system Over the high-band width , by which the Experiences Like Gaming, conference Can be utilised More. <br>
+                        <img src="https://www.iotworldtoday.com/files/2022/02/nr-article-TMo-DT-IoT-2-21-22.png" width="270px" height="60px" alt="Iot" style="border-radius:5px"> </img>
+                    </p> <i class="fa fa-close" class="closecard" id="close1"></i></div> 
+                                       <!-- Experience-->
+                    <div id="Experience" class="cards" style="margin-left: 350px"> <p> The New 5G Network Provided By Jio Telecom Services experience it on fast Servers to Stream 8k content. Experienec The Imersive Gaming room Experience For Open Worl Games, eg. PUBG, FREE-FIRE, APEX, COD, FAR CRY <br>
+                       
+                    </p> <i class="fa fa-close" class="closecard" id="close2"></i></div> 
+                                <!-- Resources-->
+                    <div id="Resources" class="cards" style="margin-left: 500px"> <p> The Various resources are avalable for practicing the Skills and view. Like Comics, Books, Advanced AI to Solve the Problems. <mark> Register Urself today</mark><br>
+                       
+                    </p> <i class="fa fa-close" class="closecard" id="close3"></i></div> 
+                      <!-- About-->
+                      <div id="About" class="cards" style="margin-left: 650px"> <p> This Conference Provides in with, top of everything. the fair and shops is an extra to the event itself. try Visiting any time.<br>
+                       
+                      </p> <i class="fa fa-close" class="closecard" id="close4"></i></div> 
+                        <!-- Contact-->
+                        <div id="Contact" class="cards" style="margin-left: 800px"> <p> 
+<pre>Abc Highway, Farewell Parks  
++91 9622257671 
+Email: even.mangr:vergeEvts@gmail.com 
+    help.desk:OrganiParty@gmail.com 
+Visit Office, in case u want to 
+have an opening an the event. </pre></p> <i class="fa fa-close" class="closecard" id="close5"></i></div> 
+            
+            
+            
+            </div>
+               
+            </div>
+            <div class="col-sm-4" id="calendar">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=7&bgcolor=%23E4C441&ctz=Asia%2FKolkata&showTabs=0&showCalendars=0&mode=WEEK&showTz=0&showPrint=0&showTitle=0&showNav=0&showDate=0&src=MTYwMjIzOTE2Njg0YmU2MWFmZjVhNGJmZGEyMWZiMWRmYmM1NzQ1OWZmMDVlODM4NjRhYWQyMGY1MmM4MjExMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60" style="border-width:0" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+                
+            </div>
+            </div>
+            </div>
+                    <br> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-7" style="height:500px;background: url(https://png.pngtree.com/thumb_back/fw800/background/20210918/pngtree-red-carpet-celebrities-event-realistic-with-stairs-podium-stage-spotlights-background-image_901766.jpg);background-repeat: no-repeat;background-size: cover">
+                            <div class="leftnav menu1">
+                                <div class="home">
+                                    <h2> WELCOME TO THE WEBSITE</h2>
+                                    <h3> Here You WIll Find The Various TOPICS Related To Engage Into</h3>
+                                    <br>
+                                    <br>
+                                    <table>
+                                        <tr>
+                                            <th> <a href="https://www.newyorker.com/magazine/2017/08/28/who-owns-the-internet"><img src="https://cdn.britannica.com/88/129488-131-09AB5E83/Internet-blue-screen-blog-society-history-media-2009.jpg"> </a><br>
+                                            <b>Who owns The Internet? </b> </th>
+                                            <th><a href="https://www.wired.com/1996/12/ffglass/"><img src="https://i.pinimg.com/736x/c3/3c/78/c33c78e1ef580d493f81fb69019116c5--mother-earth-mothers-day.jpg"> </a><br>
+                                                <b>Mother Earth Mother Board </b> </th>
+                                            <th><a href="https://www.lrb.co.uk/the-paper/v39/n16/john-lanchester/you-are-the-product"><img src="https://www.watermelon.org/wp-content/uploads/2020/07/Frog-Carving-27-1000x1000.jpg"> </a><br>
+                                                <b> YOu are The Product.</b> </th>
+                                            <th> <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/"><img src="pexels-kevin-ku-577585.jpg"> </a><br>
+                                                <b>  What Is thE CODE? </b></th>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <th><a href="https://www.theawl.com/2011/11/the-tetris-effect/"> <img src="https://i.ytimg.com/vi/tGVcmZWr_Po/maxresdefault.jpg"> </a> <b></b>The TerTriS Effect </b> </th>
+                                            <th> <a href="https://www.vulture.com/2017/02/video-games-are-better-than-real-life.html"> <img src="https://media.wired.com/photos/62feb60bcea7c0581e825cb0/master/pass/Fate-of-Game-Preservation-Games-GettyImages-1170073827.jpg"> </a>
+                                                <b> Why Ever Stop Playing Video games! </b></th>
+                                            <th><a href="https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine" ><img src="https://m.media-amazon.com/images/M/MV5BNThjYzdhNWEtYWNiZC00NjQ2LWFmNDQtMWFmYzU3YWZjZTY2XkEyXkFqcGdeQXVyNDc4NjUyODI@._V1_QL75_UX190_CR0,3,190,281_.jpg ">  </a><b>The Soul of a Machine </b></th>
+                                            <th> <a href="https://www.wired.com/2016/05/the-end-of-code/"> <img src="https://code.org/images/fill-485x235/oceans/ai_2020_overview.png"> </a> <b>The TerTriS Effect </b> </th>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <th><a href="https://www.lrb.co.uk/the-paper/v37/n05/john-lanchester/the-robots-are-coming"> <img src="https://img.favpng.com/11/24/14/real-steel-world-robot-boxing-atom-film-drawing-png-favpng-GahnSKiquNjgA25xSwraY7DSX.jpg"> </a> <b>The Robots are Coming </b> </th>
+                                            <th><a href="https://juicedsystems.com/blogs/news/a-borderless-world-the-future-of-fiber-optics-and-5g"> <img src="https://www.researchgate.net/profile/Michele-Polese/publication/321064307/figure/fig1/AS:560916884189187@1510744414617/5G-network-architecture-as-illustrated-in-Public-Safety-Perspective-A-5G-Worldview-by.png">  </a>  <b>FIBER OPTICS AND 5G NETWORKS </b></th>
+                                            <th><a href="https://hardocp.com/"> <img src="https://www.systemverilog.io/img/min/ocp/OCP3.png"> </a> <b>HARDOCP </b></th>
+                                            <th> <a href="https://hardocp.com/blog/the-streamline-is-a-lie"> <img src="https://31.media.tumblr.com/9b67c2bac03660459ef2a9869f9f8230/tumblr_inline_nie5bjSL8s1qgo4xu.jpg"> </a> <b>Streamline a LiE? </b></th>
+                                        </tr>
+                                    </table>
+                                </div> </div>
+                        <div class="leftnav menu2">
+                            <div class="events">
+                                    <div class="even">
+                                        <h1> E V E N T S</h1>
+                                    </div>
+                                    <div id="contentevent">
+                                        <table>
+                                            <tr>
+                                                <th> <div class="con" id="computer1"><a href="#science"><img src=" https://cdn.hswstatic.com/gif/computer-types-1.jpg"> </a></div> SCIENCE</th> 
+                                                <th> <div class="con" id="automobiles1"><a href="#automobiles"><img src=" https://static01.nyt.com/images/2022/09/14/multimedia/14sp-transportation-assistance/14sp-transportation-assistance-videoLarge.jpg"></a></div>  AUTOMOBILES</th>
+                                                <th> <div class="con" id="web1"><a href="#computers"><img src="https://cdn.mos.cms.futurecdn.net/6J8riT32EkrhW9NYfE5oyK.jpg"></a></div> COMPUTERS</th>
+
+                                            </tr>
+                                            <tr>
+                                                <th> <div class="con" id="food1"><a href="#food"><img src="https://mattersindia.com/wp-content/uploads/2021/08/health-eating.jpg"></a></div>  FOOD</th>
+                                                <th> <div class="con" id="comics1"><a href="#comics"><img src="https://shop.line-scdn.net/themeshop/v1/products/40/c9/7b/40c97b41-07d5-4137-918b-994b368d7001/38/WEBSTORE/icon_198x278.png"></a></div> COMICS</th>
+                                                <th> <div class="con" id="music1"><a href="#music"><img src="https://ca-times.brightspotcdn.com/dims4/default/edf2984/2147483647/strip/true/crop/2788x3504+0+0/resize/1182x1486!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7a%2F66%2Fb8b1261941b380b527e8319fba9d%2Fla-ca-vinyl-books-064.JPG"></a></div> MUSIC</th>
+
+                                            </tr>
+                                        </table>
+                                        
+                                    </div>
+                                <div id="gallery">
+                                   
+                                  <ul id="science">
+                                        <li><a id="sciimg">Big Physics Bonanza </a>  </li>
+                                        <li><a id="sciimg1">Moon Missions </a> </li>
+                                        <li><a id="sciimg2">To Mars and the Stars </a>  </li>
+                                    </ul>
+                                        <div class="science sc1 "> <img id="sci1" src="physics.png" > 
+                                        <img id="sci2" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/12/orion_exploration_mission_1_infographic_airbus/15717879-1-eng-GB/Orion_Exploration_Mission_1_infographic_Airbus_pillars.jpg"> 
+                                    <img id="sci3" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/8CFA/production/_108509063__ab28712s_web.jpg"></div>
+                                    <ul id="automobiles">
+                                        <li><a id="attimg">Green Vehicle Expo</a> </li>
+                                        <li><a id="attimg1">Auto Trade Expo </a></li>
+                                        <li><a id="attimg2">Global EV Show  </a></li>
+                                    </ul>
+                                    <div class="science att"><img id="att1" src="https://e-vehicleinfo.com/wp-content/uploads/2022/04/EV-India-Expo-2022%E2%80%93-Upcoming-EV-Event-on-September-7-8-9-1.jpg ">
+                                        <img id="att2" src="auto.png">
+                                        <img id="att3" src="global.png"></div>
+                                    <ul id="computers">
+                                        <li><a id="compimg">IEEE Future Networks 2022 </a> </li>
+                                        <li><a id="compimg1">International Conference for High-Performance Computer, Networking, Storage, and Analysis (SC 2022) </a></li>
+                                        <li><a id="compimg2">22nd International Conference on Data Mining (ICDM 2022) </a></li>
+                                    </ul>
+                                    <div class="science comp"><img id="comp1" src="https://innovationatwork.ieee.org/wp-content/uploads/2019/08/IEEE_Learning_Network_ILN_1024X684.jpg ">
+                                        <img id="comp2" src="https://www.marvell.com/content/dam/marvell/en/company/events/images/Heroes/bnr-hero-855x504-event.png">
+                                        <img id="comp3" src="https://cpimg.tistatic.com/07418096/b/5/International-Conference-on-Data-Mining-Machine-Learning-DMML-.png"></div>
+                                    <ul id="food">
+                                        <li><a id="foodimg">Navratri 2022 </a></li>
+                                        <li><a id="foodimg1">New Cafes </a></li>
+                                        <li><a id="foodimg2">Weight Diet </a></li>
+                                    </ul>
+                                    <div class="science foo"><img id="foo1" src="https://e-vehicleinfo.com/wp-content/uploads/2022/04/EV-India-Expo-2022%E2%80%93-Upcoming-EV-Event-on-September-7-8-9-1.jpg ">
+                                        <img id="foo2" src="auto.png">
+                                        <img id="foo3" src="global.png"></div>
+                                    <ul id="comics">
+                                        <li><a id="comimg">Marvel </a></li>
+                                        <li><a id="comimg1">Dc </a></li>
+                                        <li><a id="comimg2">X- Men </a> </li>
+                                    </ul>
+                                    <div class="science cmomic"><img id="comic1" src="https://e-vehicleinfo.com/wp-content/uploads/2022/04/EV-India-Expo-2022%E2%80%93-Upcoming-EV-Event-on-September-7-8-9-1.jpg ">
+                                        <img id="comic2" src="auto.png">
+                                        <img id="comic3" src="global.png"></div>
+                                    <ul id="music">
+                                        <li><a id="musimg">Concerts </a></li>
+                                        <li><a id="musimg1">Festivals </a></li>
+                                        <li><a id="musimg2">Tomorrowland-2022 </a></li>
+                                    </ul>
+                                    <div class="science mus"><img id="mus1" src="https://e-vehicleinfo.com/wp-content/uploads/2022/04/EV-India-Expo-2022%E2%80%93-Upcoming-EV-Event-on-September-7-8-9-1.jpg ">
+                                        <img id="mus2" src="auto.png">
+                                        <img id="mus3" src="global.png"></div>
+                                </div>
+                            </div> 
+                            </div>
+                        <div class="leftnav menu3">
+
+                                <div class="plans" style="background-color: aliceblue;">
+                                    <div class="steps">
+                                        <a type="button" id="step1">STEP 1</a>
+                                        <a type="button" id="step2"> STEP 2</a>
+                                        <a type="button" id="step3"> STEP 3</a>
+                                        <a type="button" id="step4"> STEP 4</a>
+                                        <a type="button" id="step5"> STEP 5</a>
+                                    </div>
+                                    <br> <br> <br> <br>
+                                    <div class="step1">
+                                            <form>
+                                                <label for="s1name">First Name</label><input type="text" id="s1name" name="s1name">
+                                                <label for="s2name">Middle Name</label><input type="text" id="s2name" name="s2name">
+                                                <label for="s3name">Last Name</label><input type="text" id="s3name" name="s3name">
+                                                <br> <br>
+                                                <label for="s1age">D.O.B</label><input type="number" id="s1age" name="s1age">/<input type="number" id="s2age" name="s2age">/<input type="number" id="s3age" name="s3age">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> AGE </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b id="agecal"> </b>
+                                                <br> <br>
+                                            </form>
+                                        </div>   
+                                        <div class="step2">
+                                            <h1>
+                                                Enter The Contact Details:
+                                                </h1>
+                                <input type="text" placeholder=" address"> 
+                                <input type="text" placeholder=" CONTACT"> <br>
+                                <input type="text" placeholder=" EMAIL">  
+                                <input type="text" placeholder=" security"> <br> 
+                                Additionl Info if: 
+                                <textarea> </textarea>
+
+                                            </h1>
+                                        </div>
+                                        <div class="step3">
+                                            <h1> Enter Details As A speaker</h1>
+
+                                           <b> Enter The Topic</b> <input type="text"> 
+                                           <b> Enter The No. of Topics</b> <input type="text"> <br> 
+
+                                           <b> Enter the Time (hrs)</b>
+                                           <input type="number">
+                                           <b> Enter the Details about topic </b>
+                                           <input type="text"> <br>
+                                           <br> 
+                                           <b> Enter the Topics: </b> 1. <input type="text"> 2. <input type="text"> <br> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                           3. <input type="text"><br>
+                                           <h5> Enter if Any additional Support needed</h5> <textarea> </textarea> <br>
+                                         <b></b><h6>Incase the speaker has an merchandise or some services to offer , Please Tick  (yes)<input type="checkbox"> 
+                                        </div>
+                    <div class="step4">
+                        <h2> PRICING</h2>
+
+                        <table id="price">
+                            <tr>
+                        <td>
+                        <table>
+                            <tr>
+                                <th> FOR 1 HOUR</th>
+                            </tr>
+                            <tr>
+                                <td> Efficiency</td>
+                                <td> 50%</td>
+                            </tr>
+                            <tr> 
+                                <td> Audience</td>
+                                <td> 50%</td>
+                            </tr>
+                            <tr>
+                                <td> Avilability</td>
+                                <td> 50%</td>
+                            </tr>
+                            <tr>
+                                <td> Per Booking </td>
+                                <td> 2 Max.</td>
+                            </tr>
+                            <tr>
+                                <td> Price</td>
+                                <td> 500/-</td>
+                            </tr>
+                            <tr>
+                                <td> <button class="btn btn-primary">Book</button></td>
+                            </tr>
+                        </table> </td>
+                            <td>
+                        <table>
+                            <tr>
+                                <th> FOR 2 HOUR</th>
+                            </tr>
+                            <tr>
+                                <td> Efficiency</td>
+                                <td> 70%</td>
+                            </tr>
+                            <tr> 
+                                <td> Audience</td>
+                                <td> 70%</td>
+                            </tr>
+                            <tr>
+                                <td> Avilability</td>
+                                <td> 70%</td>
+                            </tr>
+                            <tr>
+                                <td> Per Booking</td>
+                                <td> 2 Max.</td>
+                            </tr>
+                            <tr>
+                                <td> Price</td>
+                                <td> 1000/-</td>
+                            </tr>
+                            <tr>
+                                <td> <button class="btn btn-primary">Book</button></td>
+                            </tr>
+                        </table> </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th> FOR 3 HOUR</th>
+                                </tr>
+                                <tr>
+                                    <td> Efficiency</td>
+                                    <td> 80%</td>
+                                </tr>
+                                <tr> 
+                                    <td> Audience</td>
+                                    <td> 80%</td>
+                                </tr>
+                                <tr>
+                                    <td> Avilability</td>
+                                    <td> 80%</td>
+                                </tr>
+                                <tr>
+                                    <td>Per Booking</td>
+                                    <td> 3 Max.</td>
+                                </tr>
+                                <tr>
+                                    <td> Price</td>
+                                    <td> 2000/-</td>
+                                </tr>
+                                <tr>
+                                    <td> <button class="btn btn-primary">Book</button></td>
+                                </tr>
+                            </table> </td>
+                        <td>
+                            <table>
+                                <tr><th> Custom Slots</th></tr>
+                                <tr>
+                                    <td> Hours :</td>
+                                    <td> <input type=text></td>
+                                </tr>
+                                <tr>
+                                    <td> Slots Book :</td>
+                                    <td> <input type=text></td>
+                                </tr>
+                                <tr>
+                                    <td> Hours :</td>
+                                    <td> <input type=text></td>
+                                </tr>
+                                <tr>
+                                    <td > Pricing</td>
+                                    <td rowspan="2"> Per 30 Mins Rs/- 300,<br> will be Charged </td>
+                                </tr>
+                                <tr>
+                                    <td> <button class="btn btn-primary">Book</button></td>
+                                </tr>
+                            </table>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <th> Week Days</th>
+                                    </tr>
+                                    <tr> <th> Only 5 Slots Available</th></tr>
+                                    <tr> <th> Per Slots Rs. 5000/- </th></tr>
+                                        <tr> <th> only advance Bookings</th></tr>
+                                        <tr>
+                                            <td> <button class="btn btn-primary">Book</button></td>
+                                        </tr>
+                                </table>
+                        </td></tr> </table>
+                    </div>
+                    <div class="step5">
+                        <h1> ENTER THE PAYMENT DETAILS</h1>
+                        <h3> BANK- NAME <input type="text"> </h3>
+                        <h3> AMOUNT</h3>
+                        <h3> <button class="btn btn-primary"> PAY</h3>
+                    </div>
+                                    
+
+                                </div>
+                        </div>
+                    </div> 
+                    <div class="col-sm-5" id="side123" >
+                            <div class="sidenav" id="sidenav1" >
+                                <button class="buttn register" >REGISTRATION</button>
+                                    <div id="form"> 
+                                        <form id="form1">
+                                            <input type="text" class="name1" required>
+                                            <label for="name1" id="label1">NAME</label>
+                                            <br>
+                                            
+                                            <input type="text" class="contact1" required>
+                                            <label id="label2" for="contact1">EMAIL</label>
+                                            <br> <br>
+
+                                            <b> SELECT MODE</b>
+                                           
+                                            <input type="radio" id="online" name="reg_mode" value="ONLINE">
+                                              <label for="online" id="online1" >ONLINE</label>
+                                              <input type="radio" id="offline" name="reg_mode" value="OFFLINE">
+                                              <label for="offline" id="offline1">OFFLINE</label>
+                                            <br>
+                                            <button id="bt1" type="submit">SUBMIT  </button>  <i id="caret1" class='fa fa-caret-up' style='font-size:36px' ></i>
+                                            <button id="bt2" type="reset">RESET</button>  <i id="caret2" class='fa fa-caret-up' style='font-size:36px' ></i>
+                                        
+                                       
+                                        </form>  <button id="bt3">CLOSE </button> <i id="caret3" class='fa fa-caret-up' style='font-size:36px'></i>
+                                    </div> </div>
+                              
+                            
+                               
+                            <div class="sidenav" id="sidenav2">
+                                <button class="buttn subscribe" >SUBSCRIBE</button>
+                                <div id="form99">
+                                    <div id="form2">
+                                        <form><br>
+                                        <input type="text" id="email" required>
+                                        <b id="email1"> Enter Your Mail </b>
+                                              <br>      <br>
+                                        <b> SELECT TYPE OF SUBSCRIPTION</b><br>
+                                        <input type="checkbox" id="check1">
+                                        <label for="check1"><b>News Letter</label>
+                                                &nbsp;  &nbsp; &nbsp; 
+                                        <input type="checkbox" id="check2">
+                                        <label for="check2"><b>Magazine</b></label>
+
+                                                 &nbsp;  &nbsp; &nbsp; 
+                                        <input type="checkbox" id="check3">
+                                        <label for="check3"><b>Email</b></label>
+                                                    <br>
+                                                 &nbsp;  &nbsp; &nbsp; 
+                                        <input type="checkbox" id="check4">
+                                        <label for="check4"><b>WEEKLY</b></label> 
+                                                 &nbsp;  &nbsp; &nbsp; 
+
+                                        <input type="checkbox" id="check5">
+                                        <label for="check5"><b>MONTHLY</b></label> 
+                                                 &nbsp;  &nbsp; &nbsp;
+                                        
+                                        <input type="checkbox" id="check6">
+                                        <label for="check6"><b>YEARLY</b></label> 
+                                                 &nbsp;  &nbsp; &nbsp;
+                                        </form>
+                                        
+                                    </div>
+                                    
+                                </div> 
+                            
+                            </div>
+                            <div class="sidenav" >
+                                <button class="buttn newsletter" href="#">NEWSLETTER</button>
+                                <div id="form100">
+                                    <div id="form3">
+                                        <table id="t2">
+                                            <tr>
+                                    <td>
+                                        <form action="/display.html" method="POST">
+                                            
+                                            <table id="t1">
+                                              
+                        
+                                                <tr>
+                                                    <th> <label for="name">Name </label></th>
+                                                    <td> <input type="text" id="name" required/> </td>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <th> <label for="mob">Mobile No. </label></th>
+                                                    <td> <input type="number" id="mob" required/> </td>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <th> <label for="email">Email ID </label></th>
+                                                    <td> <input type="email" id="email3" required/> </td>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <th> <label for="add">Address </label></th>
+                                                    <td> <textarea style="resize: none;" id="add"> </textarea> </td>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <th colspan="2">
+                                                        All Data entered are correct ?
+                                                        <input type="checkbox" required/> Yes
+                                                    </th>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <th colspan="2">
+                                                        <input type="submit" value="SUBMIT"/>
+                                                        <input type="reset" value="RESET"/>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </form>
+                                    </td>
+                        
+                                    <td> 
+                                        <p id="p1"> Contact US</p>
+                                        <address> This is the office address</address>
+                                        <p class="ChangeColor"> Email :- eventMngr@verge.com</p>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                                    </div>  
+                                </div> 
+                            </div>
+                            <div class="sidenav" >
+                                <button class="buttn speaker" href="#">SPEAKER </button>
+                                <div id="form4"> 
+                                        <h3> REGISTER YOURSELF AS AN SPEAKER </h3>
+                                        <div> 
+                                            <form> 
+                                               <b> Fill Name:  </b> <input type="text">
+                                               <b> Enter Age:</b>  <input type="number"> <br> 
+                                               <b> Enter Gender:</b> <input type="radio" id="male" name="gender"> <label for="male" name="gender"> <b> MALE</b></label>
+                                                                <input type="radio" id="female" name="gender"> <label for="female" name="gender"> <b> FEMALE</b></label>
+                                                                    <input type="radio" id="other" name="gender"> <label for="other" name="gender"> <b> Other</b></label> <br>
+                                                    
+                                                <b> Pick a Topic </b>  
+                                                                <input type="radio" id="Science" name="topic"> <label for="Science" name="topic"> <b> SCIENCE</b>       </label>
+                                                                <input type="radio" id="computers" name="topic"> <label for="computers" name="topic"> <b> COMPUTERS</b> </label>
+                                                                <input type="radio" id="internet" name="topic"> <label for="internet" name="topic"> <b> INTERNET</b>    </label>
+                                                                <input type="radio" id="it/tech" name="topic"> <label for="it/tech" name="topic"> <b> IT/TECH</b>       </label>
+                                                                <input type="radio" id="AI" name="topic"> <label for="AI" name="AI"> <b> AI</b></label><br>
+                                            </form>                
+                                                                   <input type="text" id="othertopic" required>  <label for="othertopic1" id="othertopic1"><b>Enter it for yourself... </b></label>
+                                                                           
+                                                                        
+                                        </div>
+                                </div> 
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12" id="#newzz">
+                        <br>
+                        <br>
+                        <br>
+                        <h1>The Latest In The field TECHNOLOGY  Are: </h1>
+                        <iframe width="900" height="600" src="https://www.pcmag.com/news" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="footer">
+                <div class="row">
+                    <div class="col-sm-4" id="blog">
+                        <h3>BLOGS</h3>
+                        TO subscribe to our blogs and be updated:
+                        
+                        Enter your Email:
+                        <input type="text"> 
+
+                        <br>
+                        To Connect to our other Platforms :
+                        <i class="fa fa-facebook-official" style="font-size:24px"></i>
+                        <i class="fa fa-google-plus" style="font-size:24px"></i>
+                        <i class="fa fa-linkedin" style="font-size:24px"></i>
+                        <i class="fa fa-pinterest" style="font-size:24px"></i>
+                        <i class="fa fa-twitter" style="font-size:24px"></i>
+                        <br> <br> <br>
+                       <a href="concert.html"> <img  src="whitemassif.png"> </a>
+                       <h2> Partners:</h2>
+                       <h6>Our News . Media . Over Seas</h6>
+                       <h6> times Group of India</h6>
+                       <h6> Wired</h6>
+                       <h6> Hiindustan Today</h6>
+                       <h6> Twitch Tv</h6>
+                       <h6> Broadcast Aero</h6>
+                       <h6> Broad ALL Souh-afrifa</h6>
+
+                    </div>
+                    <div class="col-sm-4" id="highlights">
+                        <h3>HIGHLIGHTS</h3>
+                        The Various Highlighs of Our Compnay are:
+                        <br>
+                        <mark>About us:</mark><br>
+                        This is an prestiges Event Organiser Companty, We have Organized Many Events and Festival, in the Span of 2 years. <br>
+                        <mark>Vision:</mark><br>
+                        We stand up to the availability of our speakers and their content to the users.<br>
+                        <mark>Market:</mark><br>
+                        For Offline Events and Sales of Merchandise, We Prvide our very efficient Communication channels.<br>
+                    </div>
+                    <div class="col-sm-4" id="photo">
+                        <h1> GALLERY</h1>
+                        will be added soon
+                        <br>
+                        <br>
+                        SITE MAP:
+                        <a href="#header">HEADER</a>
+                        <a href="#footer">FOOTER</a>
+                        <a href="#side123"> Register yourself</a>
+                        
+
+                    </div>
+                </div>
+            </div>
+       
+    
+
+</body>
+</html>

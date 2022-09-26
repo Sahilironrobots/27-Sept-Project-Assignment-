@@ -1,0 +1,839 @@
+
+        #newz
+        {
+            height: 500px;
+        }
+        body{
+            background-color:gainsboro;
+        }
+       #gallery a{
+        cursor: pointer;
+
+       }
+       #gallery a:hover{
+        background-color: darkblue;
+        color:rgb(4, 140, 244);
+        box-shadow: 1px 3px 5px white;
+        text-shadow: 3px 5px 10px yellow;
+       }
+        #gallery li{
+            list-style: none;
+            color: white;
+            font-size: 30px;
+            transition-duration: .5s;
+
+        }
+        .science
+        {
+            width: 400px;
+            height: 300px;
+           
+            position: absolute;
+            top: 1500px;
+            left: 600px;
+         }
+
+         .att
+        {
+            top: 2000px;
+            left: 600px;
+        }
+        .comp
+        {
+            top: 2600px;
+            left: 600px;
+        }
+        #gallery img{
+            width: 400px;
+            height: 300px;
+            display:none;
+        }
+        #gallery #science
+        {
+            background-image:url("https://media-cldnry.s-nbcnews.com/image/upload/t_focal-760x428,f_auto,q_auto:best/mpx/2704722219/2021_10/MarsAFP_9PG3DY-n3pk3j.jpg");
+            background-repeat: no-repeat;
+            background-size:auto;
+            height: 500px;
+           
+        }
+        #gallery #automobiles
+        {
+            background-image: url("https://cdni.autocarindia.com/ExtraImages/20180620125334_xHyperLoop4.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+            height: 500px;
+        }
+        #gallery #comics
+        {
+            background-image: url(" https://wallpaperaccess.com/full/692818.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+            height: 500px;
+           
+        }
+        #gallery #food
+        {
+            background-image: url(" https://wallpaperaccess.com/full/271696.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+            height: 500px;
+        }
+        
+        #gallery #music
+        {
+            background-image: url(" https://www.tomorrowland.com/src/Frontend/Themes/tomorrowland/Core/Layout/images/opengraph/tomorrowland.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+            height: 500px;
+        }
+        
+      
+        #gallery #computers
+        {
+            background-image: url(" https://wallpaperaccess.com/full/6208947.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+            height: 500px;
+        }
+        #sidenav1 {
+            background: url("https://i.pinimg.com/originals/03/aa/d3/03aad3c0ea4a8cdb865a161ab97d2ec5.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #sidenav2
+        {
+            background: url("https://www.priorityengineering.co.uk/wp-content/uploads/2021/06/worldmap_countries_blue_on_dark-scaled.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #side123
+        {
+            background: url("https://ih1.redbubble.net/image.268157135.7248/aps,504x498,medium,transparent-pad,600x600,f8f8f8.u2.jpg");
+            background-repeat: no-repeat;
+            background-position: 350px 1px ;
+            transition: .3s;
+        }
+        #form4 b{
+            color: white;
+            padding: 3px;
+            transition: .3s;
+        }
+        #form4 b:hover{
+
+            color:aqua;
+            text-shadow: 2px 1px 2px ;
+            font-size:20px;
+        }
+          #othertopic1:focus{
+            outline: 5px solid aqua;
+        }
+         #othertopic:focus ~ #othertopic1,
+        #othertopic:valid ~ #othertopic1 {
+            color: white;
+            font-size: 10px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            top:370px;
+            left: 180px;
+            padding: 2px 5px;
+            background: mediumvioletred;
+            transition: .3s;
+            border-radius: 10px;
+            }
+        #othertopic
+        {
+            color: aqua;
+            background:rgb(241, 163, 19);
+            width: 350px;
+            padding: 10px;
+            transition: .3s;
+
+        }
+        #othertopic1
+        {
+            position:absolute;
+            top:400px;;
+            left:180px;
+            pointer-events: none;
+        }
+            #form4
+            {
+                margin-left:100px;
+                background-color: mediumvioletred;
+                border-radius:10px;
+                padding: 20px;
+                display:none;
+                transition: .3s;
+            }
+            h3:hover{
+                color:#000000;
+            }
+            #p1 {
+                font-weight: bold;
+                text-align: center;
+            }
+
+            #t2 { text-align: center;}
+            #t2 td{
+                width:300px;
+            }
+            #form3
+            {
+                        background-color:rgb(225, 140, 206);
+                        border-radius: 15px;
+                        padding: 20px; 
+            }
+
+            .ChangeColor { color: red;}
+                    #form2 #email:focus{
+                        outline: 5px solid aqua;
+        }#form100
+        {
+            margin-left: 100px;
+            display: none;
+        }
+        #form99
+        {
+            margin-left: 100px;
+            display: none;
+        }
+        #form2
+        {
+            transition: .3s;
+            border-radius: 15px;
+            padding: 20px; 
+            
+        }
+        #email1
+        {
+            position: absolute;
+            top:175px;
+            left:180px;
+            font-size: 25px;
+            transition: .5s;
+            background-color: transparent;
+            pointer-events: none;
+            color:aliceblue;
+        }
+        #form2 b{
+
+            color:rgb(246, 255, 0);
+            transition: .3s;
+        }
+        #form2 b:hover{
+
+            font-size: 20px;
+            color: red;
+            
+
+        }
+
+        #form2 #email:focus ~ #email1,
+        #form2 #email:valid ~ #email1 {
+            
+            color: rgb(81, 0, 255);
+            font-size: 20px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            top:140px;
+            left: 160px;
+            padding: 2px 5px;
+            background: rgb(225, 225, 140);
+            border-radius: 10px;
+            }
+        #email
+        {
+            width: 500px;
+            border-radius: 50px;
+            font-size: larger;
+            padding: 15px;
+            color:orchid;
+            background-color: rgb(225, 225, 140);
+            font-weight: 800;
+           
+            
+        }
+        #caret1
+        {
+            position:absolute;
+            left: 240px;
+            top: 260px;
+        }
+        #caret2
+        {
+            position:absolute;
+            left: 390px;
+            top: 260px;
+        }
+        #caret3
+        {
+            position:absolute;
+            left: 540px;
+            top: 260px;
+        }
+        #bt1
+        {
+            width: 100px;
+            height: 25px;
+            font-size:large;
+            position: absolute;
+            top:280px;
+            left: 200px;
+            border:none;
+            
+         }
+         #bt2
+        {
+            width: 100px;
+            height: 25px;
+            font-size:large;
+            position: absolute;
+            top:280px;
+            left: 350px;
+            border:none;
+            
+         }
+         #bt3
+        {
+            width: 100px;
+            height: 25px;
+            font-size:large;
+            position:absolute;
+            position: absolute;
+            top:280px;
+            left: 500px;
+            border:none;
+           
+         }
+        
+         #form
+         {
+            overflow: hidden;
+            display:none;
+            
+         }
+    
+        #form1 #online1
+        {
+            font-size: larger;
+            color:rgb(255, 225, 0);
+            font-weight: 900;
+        }
+        #form1 #offline1
+        {
+            font-size: larger;
+            color:rgb(255, 225, 0);
+            font-weight: 900;
+        }
+        #form1
+        {
+           
+            width: 550px;
+            margin-left: 100px;
+            border-radius: 10px;
+            padding: 20px;
+           
+        }
+        #form1 .name1
+        {
+            width: 400px;
+            border-radius: 50px;
+            background-color: transparent;
+            color:rgb(4, 140, 244);
+            padding: 10px;
+            font-weight: 900;
+            font-size: larger;
+            transition: .3s;
+            padding-left: 20px;
+            }
+            #form1 b{
+                color: brown;
+                font-size: large;
+                padding: 30px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            #form1 .contact1
+        {
+            width: 400px;
+            border-radius: 50px;
+            background-color: transparent;
+            color:rgb(4, 140, 244);
+            padding: 10px;
+            font-weight: 900;
+            font-size: larger;
+            padding-left: 20px;
+            margin-top: 30px;
+            transition: .3s;
+            }
+        
+            
+        
+        #form1 .name1:focus{
+            outline: 5px solid aqua;
+        }
+        #form1 .contact1:focus{
+            outline: 5px solid aqua;
+        }
+        #form1 #label1
+        {
+            pointer-events: none;
+            font-size: 18px;
+           padding: 10px;
+            transition: 0.3s;  
+            position:absolute;
+            top: 70px;
+            left: 150px;
+            color:aqua;
+            font-size: xx-large;
+            font-weight: 900;
+        }
+        #form1 #label2
+        {
+            pointer-events: none;
+            font-size: 18px;
+           padding: 10px;
+            transition: 0.3s;  
+            position:absolute;
+            top: 150px;
+            left: 150px;
+            color:aqua;
+            font-size: xx-large;
+            font-weight: 900;
+        }
+        #form1 .name1:focus ~ #label1,
+        #form1 .name1:valid ~ #label1 {
+            color: rgb(81, 0, 255);
+            font-size: 20px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            top:60px;
+            left: 160px;
+            padding: 2px 5px;
+            background: whitesmoke;
+            }
+
+            #form1 .contact1:focus ~ #label2,
+            #form1 .contact1:valid ~ #label2 {
+            color: rgb(81, 0, 255);
+            font-size: 20px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            top:143px;
+            left: 160px;
+            padding: 2px 5px;
+            background:white;
+            }
+
+        .sidenav
+        {
+           
+            width: 700px;
+             margin-top: 5px;
+         }
+         .sidenav .buttn {
+                color:rgb(241, 163, 19);
+                font-size: 30px;
+                background-color: beige;
+                width: 500px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+        .fa-close
+        {
+            margin-left: 130px;
+            text-shadow: 1px 2px 5px white;
+            color:cyan;
+            bottom: 0;
+        
+        }
+        p{
+            color: rgb(255, 255, 255,0.8);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: justify;
+            padding: 10px;
+            transition: all .3sec;
+            margin-right: 10px;
+            }
+            p:hover{
+                color: rgb(253, 253, 253,5);
+                text-decoration: solid;
+                font-weight: 900;
+                text-shadow: 0px 1px 2px black;
+            }
+            .cards:hover{
+                    box-shadow: 0px 5px 15px whitesmoke;
+            }
+        .cards
+        {
+            width: 300px;
+            height: 200px;
+            
+            
+            margin-top: 10px;
+            border-radius: 20px;
+            display:none;
+            background-color:rgb(241, 163, 19);
+            border-style: groove;
+        }
+        #panel
+        {
+            background-color: salmon;
+            border-radius: 5px;
+            border: 5px;
+            border-color: silver;
+           
+            height: 300px; 
+           box-sizing: border-box;
+      
+            border-style: double;
+            background-image: url("ezgif.com-gif-maker\ \(7\).gif");
+            
+            background-size: contain;
+           
+            
+        }
+        #panel button
+        {
+            width:150px;
+            height:50px;
+            background-color: fuchsia;
+            color:aqua;
+            font-size: 20px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           border-radius: 5px;
+           transition: all 0.5s ease-in-out;
+            
+        }
+        #panel button:hover{
+                color:firebrick;
+                background-color: darkorange;
+                box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+        }
+    
+        #menubar:hover{
+            background-color: aqua;
+        }
+        #menubar a:hover
+        {
+            color:rgb(255, 225, 0);
+            background-color: black;
+            
+        }
+       #menubar
+       {
+        float: right;
+       }
+        #menubar a{
+          float:left;
+        display: block;
+        text-shadow: 2px 2px 4px #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+       
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        color: grey;
+        
+        }
+        #searchbar
+        {
+           text-align: center;
+           margin-top: 10px;
+           
+        }
+        #search
+        {
+            border-radius: 10px;
+            width: 500px;
+        }
+        #topbar
+        {
+            background-color: silver;
+        }
+        .dot
+        {
+            
+        height: 20px;
+        width: 15px;
+        background-color: rgba(239, 18, 18, 0.897);
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 5px;
+        
+        }
+        .menu1
+        {
+            display: none;
+            overflow: scroll;
+        }
+        .menu2
+        {
+            display: none;
+           
+        }
+        .menu3
+        {
+            display:none;
+
+        }
+        .leftnav
+
+        {
+            height:500px;
+            width:1100px;
+           
+            
+        }
+        .home{
+            background: url("https://cdn.wallpapersafari.com/20/72/LvPz5p.jpg");
+        }
+        .home 
+        {
+            color: aqua;
+            transition: .5s;
+        }
+        .home img:hover{
+            border: 2px solid aquamarine;
+
+        }
+        .home b{
+            color:rgb(246, 255, 0);
+        }
+        .home b:hover
+        {
+            color: rgb(255, 225, 0);
+            text-shadow: 1px 2px 5px rgb(49, 38, 120);
+        }
+        .home img
+        {
+            width: 250px;
+            height: 200px;
+            padding: 5px;
+
+        }
+        .home h2{
+            color: cornsilk;
+        }
+        .home h3{
+            color: grey;
+        }
+        .home h3:hover
+        {
+            color:rgba(145, 92, 182, .4);
+            text-shadow: 2px 1px 5px white;
+        }
+
+        .events
+        {
+            background:url("https://2.bp.blogspot.com/-nxO72D_tcOA/XD930ea5KQI/AAAAAAAAAuM/vk68B5WkVr43tQWdOe6z2d0NTG9Sz9IIgCKgBGAs/w3840-h2400-c/fiber-optic-colorful-abstract-29-4k.jpg");
+            background-repeat: no-repeat;
+            width: 1080px;
+            height: 500px;
+            background-size: cover;
+            position:absolute;
+            overflow:scroll;
+        }
+        .even {
+
+            background-color: rgb(46,46,46);
+          
+        }
+        .even h1{
+           color: rgb(255, 253, 253, .5);
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 120px;
+           transition: .5s;
+           margin-left: 200px;
+           margin-top: 300px;
+        }
+        .even h1:hover{
+            color: rgb(255,255,255,1);
+            text-shadow: 0 2px 20px white ;
+            
+        }
+            #contentevent
+            {
+                padding: 100px;
+            }
+        #contentevent th
+        {
+            width: 300px;
+            height: 300px;
+           
+            padding:25px;
+            text-align: center;
+            font-size:30px;
+            color: white;
+            transition: 3s;
+        }
+        #contentevent th:hover{
+            color: black;
+        }
+     
+        .con{
+
+            
+            background-color: rgb(9, 119, 245);
+            width: 250px;
+            height: 250px;
+            transition: .5s;
+        }
+            #contentevent img{
+                width: 250px;
+                height: 250px;
+               
+            }
+        .con:hover{
+            box-shadow: 1px 60px 80px white ;
+            background-color: #ffffff;
+           
+        }
+    
+   
+    #step1
+    {
+        background-color: skyblue;
+        border-radius: 10px;
+        transition-duration: .5s;
+     }
+     #step2
+     {
+        background-color: rgb(11, 179, 246);
+        border-radius: 10px;
+        transition-duration: .5s;
+     }
+   
+     #step3
+     {
+        background-color: rgb(11, 179, 246);
+        border-radius: 10px;
+        transition-duration: .5s;
+     }
+     #step4
+     {
+        background-color: rgb(6, 75, 103);
+        border-radius: 10px;
+        transition-duration: .5s;
+     }
+     #step5
+     {
+        background-color: rgb(92, 200, 243);
+        border-radius: 10px;
+        transition-duration: .5s;
+     }
+
+    .steps{
+        width:1050px;
+        height: 100px;
+        border:2px solid black;
+        margin-left:10px;
+        margin-top:50px;
+        padding:20px;
+        float:left;
+    }
+    .steps a{
+       
+        font-size: 30px;
+        margin-left:100px;
+        
+    }
+    
+    .step1
+    {
+        margin-top:100px;
+        margin-left:30px;
+        background-color:silver;
+        border-radius:20px;
+        display:none;
+        
+    }
+    .step2{
+        margin-top:70px;
+        margin-left:30px;
+        background-color:silver;
+        border-radius:20px;
+        display: none;
+        
+    }
+    .step3{
+        margin-top:70px;
+        margin-left:30px;
+        background-color:silver;
+        border-radius:20px;
+        display: none;
+    }  
+        .step4
+        {
+            margin-top:70px;
+        margin-left:30px;
+        background-color:silver;
+        border-radius:20px;
+        display: none;
+        }
+  
+    .step1 input{
+        width: 200px;
+        border-color: slategray;
+        font-size: 20px;
+    }
+    .step1 label{
+        font-size: x-large;
+        padding:10px;
+    }
+    #s1age
+    {
+        width: 100px;
+    }
+    #s2age
+    {
+        width: 100px;
+    }
+    #s3age
+    {
+        width: 100px;
+    }
+    .step2 input
+    {
+        width:300px;
+        margin-top: 50px;
+        margin-left: 50px;
+}
+    .step2 textarea{
+        margin-top: 20px;
+        width: 500px;
+        height: 80px;
+    }
+    .step3 input
+    {
+        width:300px;
+        margin-top: 5px;
+        margin-left: 10px;
+}
+    .step3 textarea{
+        
+        width: 500px;
+        
+    }
+    .step4 table
+    {
+        
+        Background-color: black;
+        color: white;
+        
+        margin-left:10px;
+    }
+    .step4 #price td
+    {
+        padding: 5px;
+        text-align: center;
+        color:whitesmoke;
+        border: 1px groove aqua;
+    }
+    .step4 #price td:hover{
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        text-shadow: 3px 5px 15px yellowgreen;
+        cursor: pointer;
+    }

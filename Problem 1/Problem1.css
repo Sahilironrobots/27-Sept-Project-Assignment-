@@ -1,0 +1,126 @@
+
+
+        h3 {
+            color: brown;
+            padding: 100px;
+            font-size: xx-large;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+    .snowImage{
+        background-image: url("150293.jpg");
+            background-size: 2000px, 1000px;
+            min-height: 1500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            opacity: 70%;
+      
+    }
+    .bike
+    {
+        height: 500px ;
+        background-image: url("bikejump.jpg");
+        background-size: 2000px, 1000px;
+        background-position: center;
+        text-align: center;
+
+    }
+    .center {
+        margin-left: 1200px;
+                font-size: 25px;
+        transform: translate(-30%, 100%);
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: brown;
+        font-weight: 800;
+        font-style: oblique;
+        
+        animation: fadeIn 50s;
+        animation-fill-mode:forwards;
+        }
+        @keyframes fadeIn {
+        from { color: green;}
+        to {color: blue;}
+        }
+
+.trackImage {
+
+    background-image: url("663760.png");
+    background-size: 2000px, 1000px;
+            min-height: 1500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 70%;
+
+}
+.classic
+{
+    height: 500px ;
+        background-image: url("https://images.news18.com/ibnlive/uploads/2017/06/Royal-Enfield-Thunderbird-350-Rudra-by-Maratha-Motorcycles-side-closeup.jpg");
+        background-size: 2000px, 1000px;
+        background-position: center;
+        text-align: center;
+}
+.center1
+        {       width: 500px;
+            margin-left: 10px;
+                font-size: 25px;
+            transform: translate(0%, 100%);
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: brown;
+        font-weight: 800;
+        font-style: oblique;
+        
+        animation: fadeInn 50s;
+        animation-fill-mode:forwards;
+}
+
+@keyframes fadeInn {
+ from { color: gold;}
+ to {color: rgb(61, 10, 228);}
+}
+
+.carTracks
+{
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/31/16/33/road-4988448_960_720.jpg");
+    background-size: 2000px, 1000px;
+            min-height: 1500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 70%;
+    ;
+}
+.car
+{
+        background-image: url("https://thumbs.dreamstime.com/b/night-traffic-jam-city-street-slow-movement-cars-red-stop-signals-64003696.jpg");
+        height: 500px ;
+        background-size: 2000px, 1000px;
+        background-position: center;
+        text-align: center;
+}
+.center2 {
+        margin-left: 1200px;
+        font-size: 25px;
+        transform: translate(-30%, 100%);
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: brown;
+        font-weight: 800;
+        font-style: oblique;
+        
+        animation: fadeInnn 50s;
+        animation-fill-mode:forwards;
+}
+@keyframes fadeInnn {
+ from { color: rgb(228, 211, 214);}
+ to {color: rgb(212, 230, 15);}
+}
+

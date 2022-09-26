@@ -1,0 +1,122 @@
+table{
+  text-align: center;
+  border: 10px solid black;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #E0FFFF;
+  color: #2F4F4F;
+}
+
+td{
+  height:150px;
+  width: 200px;
+  border:1px solid black;
+  text-align:center;
+  
+}
+#name:hover{
+  background: url("imagesahil.jpeg") no-repeat;
+  background-size: 200px 150px;
+  color:red;
+  font-family: "Audiowide", sans-serif;
+  font-weight: bold;
+  font-size:20px;
+ 
+  
+}
+
+#header:hover
+{
+  background-image: linear-gradient(red, yellow, blue);
+  font-family:Courier New;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#body:hover
+{
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJr6w58yRlikb-Gw_ffxyJdEDY0ZbD_Lc-Mw&usqp=CAU") no-repeat;
+  background-position: center;
+  color:aqua;
+  font-family:Courier New;
+  font-weight: bold;
+  font-size: 50px;
+  background-color:grey;
+}
+
+#logo:hover{
+
+  background:url("logoboard.png");
+   background-size: 200px 150px;
+}
+
+#contact:hover
+{
+  background:url("https://st.depositphotos.com/1005738/1395/i/600/depositphotos_13953266-stock-photo-contact-us-keyboard-key-website.jpg") no-repeat;
+   background-size:200px 150px;
+  Font-family: "Sofia", sans-serif;
+  color:yellow;
+   background-position: center;
+  background-color: grey;
+}
+
+.overlay
+{
+   font-family: "Audiowide", sans-serif;
+  font-weight: bold;
+  font-size:30px;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  padding: 15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color: #fff;
+}
+
+#value1:hover{
+ 
+  background: url("imagegreen.gif");
+  
+  
+}
+#value2:hover{
+ 
+  background: url("imagegreen.gif");
+  
+  
+}
+#value3:hover{
+ 
+  background: url("imagegreen.gif");
+  
+}
+
+#video
+{
+  height: 300px;
+  width: 250px;
+  background-color: #D86C70;
+  
+}
+
+#btn
+{
+  float:right;
+  margin-top: 150px;
+  background-color:#00FF00;
+  color: #00FF00;
+  border:none;
+  
+}
+#btn:hover{
+  
+  background-color: #D86C70;
+  font-family: "Audiowide", sans-serif;
+  font-weight: bold;
+  font-size:15px;
+}
+
+ 
